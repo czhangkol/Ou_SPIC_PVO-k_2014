@@ -1,43 +1,43 @@
 
-PVO-k
+PVO-K
 =======
 
 
-This repo is implementation for the accepted paper "[Reversible data hiding using invariant pixel-value-ordering and prediction-error expansion](https://www.sciencedirect.com/science/article/pii/S0923596514000824)" (SPIC 2014).
+论文题目： "[Reversible data hiding using invariant pixel-value-ordering and prediction-error expansion](https://www.sciencedirect.com/science/article/pii/S0923596514000824)" (SPIC 2014).
 
 
 <p align="center"> <img src="./M1.jpg" width="100%">    </p>
-<p align="center"> Figure 1: Combined embedding of PVO-1 and PVO-2.</p>
+<p align="center"> 图1: 混合PVO-1和PVO-2嵌入.</p>
 
 
 <p align="center"> <img src="./M2.jpg" width="100%">    </p>
-<p align="center"> Figure 2: Extended PVO-k by using both maximum- and minimum-valued pixels.</p>
+<p align="center"> 图2: PVO-k.</p>
 
 
 
-## How to run
+## 如何运行
 
 ```
-go to code
-run main_K.m
+进入 code 文件夹
+运行 main_K.m 文件
 ```
 
-## Experimental Results
+## 实验结果
 
 <p align="center"> <img src="./R1.jpg" width="100%">    </p>
-<p align="center"> Figure 3: Performance comparison.</p>
+<p align="center"> 图3: 性能对比.</p>
 
 <p align="center"> <img src="./R2.jpg" width="100%">    </p>
-<p align="center"> Figure 4: Comparison of PSNR (in dB) for a capacity of 10,000 bits.</p>
+<p align="center"> 图4: PSNR对比.</p>
 
 
 
-## Environment
+## 实验环境
 Matlab 2016b <br>
 
 
-## Citation
-If you find this work useful for your research, please cite
+## 引用格式
+如果这项工作对您的研究有帮助, 请按如下格式引用：
 ```
 @article{OU2014760,
 title = {Reversible data hiding using invariant pixel-value-ordering and prediction-error expansion},
@@ -52,6 +52,7 @@ author = {Bo Ou and Xiaolong Li and Yao Zhao and Rongrong Ni},
 }
 ```
 
-## License and Copyright
-The project is open source under MIT license (see the ``` LICENSE ``` file).
+## 版权声明
+受欧博老师委托，本项目已开源 (详见 ``` MIT LICENSE ``` ).
+
 
